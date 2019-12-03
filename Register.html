@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+    <title>Handout - Inscription</title>
+</head>
+
+<body>
+
+<h1 class="front" >Handout</h1>
+
+
+
+<form class="centerInscri" action = "Register.php" method = "post">
+
+    <h3>Inscription</h3>
+
+    <table>
+
+        <tr>
+            <input type="text" name="Nom" placeholder="Nom" maxlength="30" required> <br>
+        </tr>
+
+        <tr>
+            <input type="text" name="Prenom" placeholder="Prénom" maxlength="30" required> <br>
+        </tr>
+
+        <tr>
+            <input type="text" name="Email" placeholder="Email" maxlength="50" required> <br>
+        </tr>
+
+        <tr>
+            <input type="password" name="Password_1" placeholder="Mot de passe" maxlength="50" required> <br>
+        </tr>
+
+        <tr>
+            <input type="password" name="Password_2" placeholder="Confirmer mot de passe" maxlength="50" required> <br>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <label>Etudiant </label>
+    <input class="marge" type="radio" name="type" value="Etudiant" checked><br>
+    <label>Professeur  </label>
+    <input  class="marge" type="radio" name="type" value="Professeur"> <br><br>
+
+
+
+    <input class="inputbutton button" type="submit" value="S'inscrire">
+
+
+</form>
+
+</body>
+
+</html>
